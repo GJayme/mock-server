@@ -1,0 +1,281 @@
+{
+    "hotelDetails": [
+        {
+            "GetHotelDetailsRS": {
+                "ApplicationResults": {
+                    "status": "Complete",
+                    "Success": [
+                        {
+                            "timeStamp": "2021-11-11T06:28:42.020-06:00"
+                        }
+                    ],
+                    "Warning": [
+                        {
+                            "type": "Application",
+                            "timeStamp": "2021-11-11T06:28:40.353-06:00",
+                            "SystemSpecificResults": [
+                                {
+                                    "Message": [
+                                        {
+                                            "code": "WARN.0102",
+                                            "value": "No image data Available"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Application",
+                            "timeStamp": "2021-11-11T06:28:42.012-06:00",
+                            "SystemSpecificResults": [
+                                {
+                                    "Message": [
+                                        {
+                                            "code": "WARN.0775",
+                                            "value": "Nothing found for requested criteria"
+                                        },
+                                        {
+                                            "code": "WarningDetails",
+                                            "value": "100-Rates unavailable for requested property. Alternate properties shown."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "HotelDetailsInfo": {
+                    "HotelInfo": {
+                        "HotelCode": "100123982",
+                        "CodeContext": "GLOBAL",
+                        "HotelName": "Grand Hyatt Dfw",
+                        "ChainCode": "HY",
+                        "ChainName": "Hyatt Hotels And Resorts",
+                        "BrandCode": "10000",
+                        "BrandName": "undefined",
+                        "SabreRating": "4.0",
+                        "SabreHotelCode": "65371",
+                        "Logo": "http://vcmp-hotels.cert.sabre.com/image/upload/f_auto,q_auto:best,t_vcmp_logo/hotel/l/hy/HY.png"
+                    },
+                    "AlternateHotelInfos": {
+                        "AlternateHotelInfo": [
+                            {
+                                "HotelCode": "100163506",
+                                "CodeContext": "GLOBAL",
+                                "SabreHotelCode": "998",
+                                "ChainCode": "HY"
+                            },
+                            {
+                                "HotelCode": "100059388",
+                                "CodeContext": "GLOBAL",
+                                "SabreHotelCode": "31378",
+                                "ChainCode": "HY"
+                            },
+                            {
+                                "HotelCode": "100049070",
+                                "CodeContext": "GLOBAL",
+                                "SabreHotelCode": "26227",
+                                "ChainCode": "HY"
+                            },
+                            {
+                                "HotelCode": "100046974",
+                                "CodeContext": "GLOBAL",
+                                "SabreHotelCode": "2519",
+                                "ChainCode": "HY"
+                            },
+                            {
+                                "HotelCode": "100096070",
+                                "CodeContext": "GLOBAL",
+                                "SabreHotelCode": "49913",
+                                "ChainCode": "HY"
+                            }
+                        ]
+                    },
+                    "HotelDescriptiveInfo": {
+                        "PropertyInfo": {
+                            "Floors": "12",
+                            "Rooms": "298",
+                            "PropertyTypeInfo": {
+                                "PropertyType": [
+                                    {
+                                        "Code": 9,
+                                        "Description": "Conference center"
+                                    }
+                                ]
+                            },
+                            "Policies": {
+                                "Policy": [
+                                    {
+                                        "Text": {
+                                            "Type": "CheckOut",
+                                            "value": "1200"
+                                        }
+                                    },
+                                    {
+                                        "Text": {
+                                            "Type": "CheckIn",
+                                            "value": "1500"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "LocationInfo": {
+                            "Latitude": 32.897697,
+                            "Longitude": -97.044075,
+                            "Address": {
+                                "AddressLine1": "2337 South International Pkwy",
+                                "AddressLine2": "P O Box 619045",
+                                "CityName": {
+                                    "CityCode": "DFW",
+                                    "value": "DALLAS"
+                                },
+                                "StateProv": {
+                                    "StateCode": "TX",
+                                    "value": ""
+                                },
+                                "PostalCode": "75261-9045",
+                                "CountryName": {
+                                    "Code": "US",
+                                    "value": "United States of America"
+                                }
+                            },
+                            "Contact": {
+                                "Phone": "1-972-973-1234",
+                                "Fax": "1-972-973-1299"
+                            }
+                        },
+                        "Amenities": {
+                            "Amenity": [
+                                {
+                                    "Code": 101,
+                                    "Description": "Wheelchair access",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 15,
+                                    "Description": "Car rental desk",
+                                    "value": "All inside airp"
+                                },
+                                {
+                                    "Code": 165,
+                                    "Description": "Lounges/bars",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 168,
+                                    "Description": "Onsite laundry",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 179,
+                                    "Description": "Wireless internet connection in public areas",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 198,
+                                    "Description": "Non-smoking rooms (generic)",
+                                    "value": "298"
+                                },
+                                {
+                                    "Code": 2001,
+                                    "Description": "Eco Friendly",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 2005,
+                                    "Description": "Minibar",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 2007,
+                                    "Description": "In Room Safe",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 2018,
+                                    "Description": "Extra person",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 22,
+                                    "Description": "Concierge desk",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 236,
+                                    "Description": "Golf",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 258,
+                                    "Description": "ADA accessible",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 259,
+                                    "Description": "High speed internet access",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 261,
+                                    "Description": "High speed wireless",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 289,
+                                    "Description": "Children programs",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 310,
+                                    "Description": "Hypoallergenic rooms",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 44,
+                                    "Description": "Game room",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 77,
+                                    "Description": "Room service",
+                                    "value": ""
+                                },
+                                {
+                                    "Code": 92,
+                                    "Description": "Translation services",
+                                    "value": "Multi lingual s"
+                                },
+                                {
+                                    "Code": 96,
+                                    "Description": "Dry cleaning",
+                                    "value": ""
+                                }
+                            ]
+                        },
+                        "SecurityFeatures": {
+                            "SecurityFeature": [
+                                {
+                                    "Code": 9,
+                                    "Description": "Complies with Local/State/Federal fire laws",
+                                    "value": ""
+                                }
+                            ]
+                        },
+                        "Descriptions": {
+                            "Description": [
+                                {
+                                    "Text": {
+                                        "Type": "ShortDescription",
+                                        "value": "-PROPERTY DESCRIPTION -  Service and personal guest attention are synonymous with the Grand Hyatt DFW. The Grand Hyatt DFW is integrated into the new International Terminal D (outside security, departures/ticket counter level) and accessible from all Terminals at the Dallas/Fort Worth International Airport via the new SkyLink train and Terminal Link shuttle.   Guests experience unparalled service levels and luxury with Grand Hyatt DFWs spacious and elegantly furnished accommodations, featuring Grand bed, over-sized bathroom, spacious granite top work desk and flat screen TV.  The rooftop area of the hotel features a full-service fitness center and outdoor heated swimming pool. The latest in technology is also available at the Grand Hyatt to meet the lifestyle and demands of the refined traveler.  Wired and wireless Internet service is available in guest rooms and throughout the hotel.  The hotels meeting space is comprised of 34,000 square feet of ballrooms, banquet rooms and conference facilities.\n\nMay 14, 2011-September 3, 2011 Grand Hyatt DFW is undergoing a 13 million enhancement to our guest rooms.  The improvements include new carpeting, wall covering, window treatments and artwork.  All guest rooms are being updated on secured floors so our guests will not be inconvenienced by this project. \n . \n -RENOVATION INFORMATION -   \n . \n -FREQUENT STAY -  Hyatts frequent stay program is Gold Passport.  To find out more information on becoming a member and how to receive free room nights at participating Hyatt Hotels see WWW.GOLDPASSPORT.COM or call 1-800-544-9288."
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
